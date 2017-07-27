@@ -5,7 +5,7 @@ const webpack = require('webpack');
 
 module.exports = function (env) {
   return {
-    entry: './init.js',
+    entry: './index.js',
     output: {
       path: path.join(__dirname, './dist'),
       filename: 'bundle.js',
