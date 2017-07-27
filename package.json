@@ -1,0 +1,13 @@
+{
+  "name": "react-seed",
+  "version": "1.0.0",
+  "description": "Seed for React projects.",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server --inline --hot --output-public-path=/dist/",
+    "watch": "webpack --env=dev --progress --profile --colors --watch",
+    "build:dev": "webpack --env=dev --progress --profile --colors"
+  },
+  "author": "",
+  "license": "ISC"
+}
